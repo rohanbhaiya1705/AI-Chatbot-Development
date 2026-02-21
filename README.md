@@ -8,7 +8,7 @@ A modern AI chatbot system consists of several interconnected components that wo
 The core architecture includes a user interface layer for interaction, a communication gateway for handling messages across platforms, a natural language processing engine for understanding input, a dialogue management system for maintaining context, a response generation module for creating replies, and integration connectors for backend systems. Each component can be implemented independently, allowing you to start simple and add sophistication as your requirements evolve.
 
 
-Copy code
+
 ┌─────────────────────────────────────────────────────────────────┐
 │                      USER INTERFACES                            │
 │  ┌──────────┐  ┌──────────┐  ┌──────────┐  ┌──────────┐        │
@@ -106,6 +106,3 @@ PostgreSQL with its JSONB support provides excellent relational storage for conv
 3.1 Approach 1: Rule-Based Chatbot (Beginner)
 Rule-based chatbots operate on predefined patterns and responses, offering predictable behavior and straightforward implementation. While limited in flexibility, they provide an excellent starting point for understanding chatbot fundamentals and work well for well-defined use cases with limited scope.
 
-Key Components:
-
-The pattern matching engine uses regular expressions or keyword matching to identify user intent from input text. Response templates store predefined responses that the bot selects based on matched patterns. Conversation flows define the logical progression of interactions, guiding users through structured dialogues. Context variables maintain simple state information throughout a conversation session.
